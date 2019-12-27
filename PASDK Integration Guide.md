@@ -400,7 +400,7 @@ ALS Reward video is ready to play
     
 ```
 ### <a name="sdkDemo">SDK Demo Download</a>
-1. [Download Demo](https:zip).
+1. [Download Demo](https://github.com/PASDK/PASDK-iOS/blob/master/PASDKDemo.zip).
 
 ## <a name="error">Error Code For SDK</a>
 Error codes could be obtained from delegate method.

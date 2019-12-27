@@ -22,7 +22,7 @@
 
 **Manual download**
 
-- You can also [download](https://.zip) a copy of the SDK framework directly, unzip the file, and import the framework into your project in Xcode.
+- You can also [download](https://github.com/PASDK/PASDK-iOS/blob/master/PASDK.framework.zip) a copy of the SDK framework directly, unzip the file, and import the framework into your project in Xcode.
 
 ## <a name="step2">Integration SDK</a>
 

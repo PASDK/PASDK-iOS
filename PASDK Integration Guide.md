@@ -11,6 +11,7 @@
   - [Banner](#banner)
   - [Dynamic Interstitial](#interstitial)
   - [Rewarded Video](#rewardedvideo)
+  - [Splash](#Splash)
 - [SDK Demo Download](#sdkDemo)
 - [Error Code For SDK](#error)
 ## <a name="start">Prerequisites</a>
@@ -398,7 +399,39 @@ ALS Reward video is ready to play
         NSLog(@"give reward to the users interface");
 }
     
+   
 ```
+
+###  <a name="Splash">Adding the Splash Ad API in iOS</a>
+
+```
+/**
+Preload Splash Ad
+Call this interface preload Splash AD.
+ 
+@param slotid          Splash slot ID
+@param delegate        Set Delegate of Ads event
+@param isTest          Use test advertisement or not
+ */
+- (void)preloadSplashAd:(NSString *)slotid delegate:(id)delegate customAdView:(UIView*)view isTest:(BOOL)isTest;
+
+/**
+ Show Splash ad
+ Call this method after preload Splash ad success
+ */
+- (void)showSplashlAd;
+
+/**
+Delegate
+*/
+- (void)ALSSplashAdSuccess;
+- (void)ALSSplashAdFailed:(NSError*)error;
+- (void)ALSSplashAdClicked;
+- (void)ALSSplashAdJumpedFailed;
+
+
+``` 
+
 ### <a name="sdkDemo">SDK Demo Download</a>
 1. [Download Demo](https://github.com/PASDK/PASDK-iOS/blob/master/PASDKDemo.zip).
 

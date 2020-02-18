@@ -403,7 +403,7 @@ ALS Reward video is ready to play
 ```
 
 ###  <a name="Splash">Adding the Splash Ad API in iOS</a>
-* You need to add your own launch screen first. Then preload and show Splash AD.
+* You need to add your own launch screen first. Then preload and show Splash AD immediately after opening the app.
 ```
 /**
 Preload Splash Ad

@@ -411,6 +411,7 @@ Call this interface preload Splash AD.
  
 @param slotid          Splash slot ID
 @param delegate        Set Delegate of Ads event
+@param view	       CustomView showing your app name and icon(nil if no needed)
 @param isTest          Use test advertisement or not
  */
 - (void)preloadSplashAd:(NSString *)slotid delegate:(id)delegate customAdView:(UIView*)view isTest:(BOOL)isTest;
